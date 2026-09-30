@@ -1,0 +1,18 @@
+{
+  
+  "experiment": "experiment_1_100_queries",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "semantic_top_k": 20,
+  "lexical_top_k": 20,
+  "rrf_limit": 10,
+  "rerank_top_k": 5,
+  "num_corpus_documents": 8765,
+  "total_benchmark_queries": 3765,
+  "num_queries_evaluated": 20,
+  "ndcg@10": 0.025,
+  "mrr@10": 0.016666666666666666,
+  "total_query_time_seconds": 43.34410169999683,
+  "average_query_time_seconds": 2.1672050849998414,
+  "corpus_embedding_time_seconds": 276.8717144000002
+}

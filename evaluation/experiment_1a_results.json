@@ -1,0 +1,16 @@
+{
+  "experiment": "experiment_1a_rrf_without_reranker",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "semantic_top_k": 20,
+  "lexical_top_k": 20,
+  "rrf_limit": 10,
+  "reranker_used": false,
+  "num_corpus_documents": 8765,
+  "total_benchmark_queries": 3765,
+  "num_queries_evaluated": 20,
+  "ndcg@10": 0.05,
+  "mrr@10": 0.05,
+  "total_query_time_seconds": 21.748210499994457,
+  "average_query_time_seconds": 1.0874105249997228,
+  "corpus_embedding_time_seconds": 290.68535939999856
+}
